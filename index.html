@@ -1,0 +1,44 @@
+---
+layout: default
+title: Brian Lundin - code, design and creativity
+description: Articles on code, tech, design and creativity from Brian Lundin
+---
+<div class="row">
+  <div class="small-16 columns">
+      {% for post in paginator.posts %}
+        <article>
+          <header>
+            <h1>
+              {% if post.link %}
+                <a href="{{ post.link }}">&rarr;&nbsp;{{ post.title }}</a>
+              {% else %}
+                <a href="{{ post.url }}">{{ post.title }}</a>
+              {% endif %}
+            </h1>
+          </header>
+          <div class="post-content">
+            {{ post.content }}
+          </div>
+          {% if post.link %}<a href="{{ post.url }}" title="Permalink"><i class="fa fa-link"></i></a>{% endif %}
+          <hr>
+          {% include post_footer.html %}
+      </article>
+      {% endfor %}
+  </div>
+</div>
+<div class="row">
+  <div class="small-16 small-centered columns pagination-row">
+    <nav id="pagination">
+      {% if paginator.previous_page %}
+        {% if paginator.previous_page == 1 %}
+          <a href="/" title="Previous Page" class="button tiny radius page-link">&laquo; Previous</a>
+        {% else %}
+          <a href="/page{{ paginator.previous_page }}/" title="Previous Page" class="button tiny radius page-link">&laquo; Previous</a>
+        {% endif %}
+      {% endif %}
+      {% if paginator.next_page %}
+        <a href="/page{{ paginator.next_page }}/" title="Next Page" class="button tiny radius page-link">Next &raquo;</a>
+      {% endif %}
+    </nav>
+  </div>
+</div>

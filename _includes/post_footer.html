@@ -1,0 +1,23 @@
+<div class="row">
+  <div class="small-8 columns">
+    <a href="https://twitter.com/share?url={{ site.url | append: page.url | url_encode | downcase }}&via=blundin" target="_blank">
+      <div class="social-icon twitter-icon"></div>
+    </a>
+    <!--<a href="https://alpha.app.net/intent/post?text={{ site.url | append: page.url | url_encode | downcase }}" target="_blank">
+      <div class="social-icon appdotnet-icon"></div>
+    </a>-->
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url | append: page.url | url_encode | downcase }}" target="_blank">
+      <div class="social-icon facebook-icon"></div>
+    </a>
+  </div>
+  <div class="small-8 columns right-aligned sans-serif post-footer-text">
+    {% if page.date %}
+      <div>
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          By <span itemprop="name">Brian Lundin</span>
+        </span>
+      </div>
+    {% endif %}
+    <div class="post-footer-text" {% if page.date %}itemprop="datePublished" content="{{ page.date | date: '%Y-%m-%d' }}" {% endif %}>{% if page.date %}{{ page.date | date: "%b %-d, %Y" }}{% else %}{{ post.date | date: "%b %-d, %Y" }}{% endif %}</div>
+  </div>
+</div>
