@@ -1,0 +1,330 @@
+---
+---
+@import "settings";
+@import "media_queries";
+@import "mixins";
+
+/* Typography */
+$sans-serif-font: "futura-pt", Helvetica, Arial, sans-serif;
+$serif-font: "ff-tisa-web-pro", Georgia, "Times New Roman", serif;
+
+$small-title-font-size: 16pt;
+$small-subtitle-font-size: 16pt;
+$small-header-link-font-size: 16pt;
+
+$med-title-font-size: 20pt;
+$med-subtitle-font-size: 14pt;
+$med-header-link-font-size: 16pt;
+
+$large-title-font-size: 20pt;
+$large-subtitle-font-size: 15pt;
+$large-header-link-font-size: 16pt;
+
+
+/* Colors */
+$gray-light: #818181;
+$gray-lighter: lighten($gray-light, 30%);
+$gray-dark: #3e3e3e;
+
+// Our variables
+// $base-font-family: Helvetica, Arial, sans-serif;
+// $base-font-size:   16px;
+// $small-font-size:  $base-font-size * 0.875;
+// $base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+// $text-color:       #111;
+// $background-color: #fdfdfd;
+// $brand-color:      #2a7ae2;
+
+// $grey-color:       #828282;
+// $grey-color-light: lighten($grey-color, 40%);
+// $grey-color-dark:  darken($grey-color, 25%);
+
+// // Width of the content area
+// $content-width:    800px;
+
+// $on-palm:          600px;
+// $on-laptop:        800px;
+
+
+
+// Using media queries with like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+//========= Custom Elements ========================
+.site-title {
+  font: {
+    family: $sans-serif-font;
+    size: $small-title-font-size;
+    weight: 600;
+  }
+  margin-left: 0px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+
+  a {
+    color: #555555;
+  }
+}
+
+.site-subtitle {
+  font: {
+    family: $sans-serif-font;
+    size: $small-subtitle-font-size;
+    // weight: bold;
+  }
+  margin-top: 0px;
+  letter-spacing: 0.03em;
+  margin-left: 0px;
+  display: inherit;
+  color: $gray-light
+}
+
+.header-link {
+  // display: inherit;
+  font: {
+    family: $sans-serif-font;
+    size: $small-header-link-font-size;
+  }
+  margin-left: 0px;
+  padding-bottom: 10px;
+  vertical-align: bottom;
+  text-align: right;
+}
+
+.header-heading {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.small-margin-hr {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.subscription {
+  padding-top: 25px;
+}
+
+#subscribe-label {
+  font: {
+    size: 12pt;
+  }
+}
+
+/* Content */
+.content {
+  margin-top: 0px;
+}
+
+.image-wrap-right {
+  float: right;
+  margin: 10px;
+}
+
+.image-wrap-left {
+  float: left;
+  margin: 10px;
+}
+
+/* Paginator */
+.pagination-row {
+  text-align: center;
+}
+
+.page-link {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  width: 100px;
+}
+
+/* Post */
+.post-header {
+  h2 {
+    font: {
+      family: $sans-serif-font;
+      /*size: $small-title-font-size;*/
+    }
+
+  }
+}
+
+.post-content {
+  p {
+    line-height: 1.7;
+  }
+}
+
+/* Post Footer */
+.post-footer-text {
+  line-height: 1.2;
+}
+
+.social-icon {
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+// .twitter-icon {
+//   @extend .social-icon;
+//   background: url('http://cdn.brianlundin.com/images/twitter.png') no-repeat 0 0;
+//   @include image-2x('http://cdn.brianlundin.com/images/twitter@2x.png', 22px, 22px);
+// }
+
+// .appdotnet-icon {
+//   @extend .social-icon;
+//   background: url('http://cdn.brianlundin.com/images/appdotnet.png') no-repeat 0 0;
+//   @include image-2x('http://cdn.brianlundin.com/images/appdotnet@2x.png', 22px, 22px);
+// }
+
+// .facebook-icon {
+//   @extend .social-icon;
+//   background: url('http://cdn.brianlundin.com/images/facebook.png') no-repeat 0 0;
+//   @include image-2x('http://cdn.brianlundin.com/images/facebook@2x.png', 22px, 22px);
+// }
+
+/* Footer */
+
+#footer {
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: $gray-lighter;
+  background-color: #f8f8f8;
+}
+
+footer {
+  height: 60px;
+}
+
+ul.footer-nav {
+  text-align: center;
+  margin-right :0px;
+  margin-left: 0px;
+  margin-top: 20px;
+
+  li.footer-nav-item {
+    display: inline-block;
+    font-family: $sans-serif-font;
+  }
+
+  .not-last {
+    margin-right: 20px;
+  }
+}
+
+/* Article */
+article {
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.bio-text {
+  font: {
+    family: $sans-serif-font;
+    size: 12pt;
+  }
+  line-height: 14pt;
+  margin-top: 15px;
+}
+
+/* Footnotes */
+// .footnote-top-border {
+//   margin-top: 200px;
+// }
+
+/* Mobile-first design, so we adjust from the small for the larger screens */
+@media #{$medium-up} {
+  .site-header {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 50px;
+  }
+
+  .site-title {
+    font-size: $med-title-font-size;
+    margin-top: 32px;
+  }
+
+  .site-subtitle {
+    font-size: $med-subtitle-font-size;
+    color: $gray-light;
+  }
+
+  .header-link {
+    font-size: $med-header-link-font-size;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    padding-top: 0px;
+    text-align: left;
+  }
+
+  .site-header {
+    margin-top: 30px;
+    height: 70px;
+  }
+
+  .header-block {
+    height: 70px;
+  }
+
+  .avatar {
+    width: 70px;
+    height: 70px;
+    float: left;
+    background: url('http://cdn.brianlundin.com/images/big-avatar.png') no-repeat 0 0;
+    @include image-2x('http://cdn.brianlundin.com/images/big-avatar@2x.png', 70px, 70px);
+  }
+
+  /* Content */
+  .content {
+    margin-top: 15px;
+  }
+
+  .social-icon {
+    margin-right: 7px;
+  }
+}
+@media #{$medium-only} { 
+  .bio-text {
+    font-size: 10pt;
+  }
+}
+
+@media #{$large-up} {
+  .site-title {
+    font-size: $large-title-font-size;
+  }
+
+  .site-subtitle {
+    font-size: $large-subtitle-font-size;
+    color: $gray-light;
+  }
+
+  .avatar {
+    width: 200px;
+    height: 172px;
+    float: left;
+    background: url('/images/avatar-large.png') no-repeat 0 0;
+    @include image-2x('/images/avatar-large@2x.png', 250px, 172px);
+  }
+
+  .bio-text {
+    font-size: 11pt;
+  }
+}
+
+@import "foundation";
