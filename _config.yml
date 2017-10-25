@@ -12,7 +12,11 @@ sass:
   sass_dir: _sass
   style: compressed
 markdown: kramdown
+srcset:
+  cache: "/images/resize"
 
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-srcset
+  - github-pages
