@@ -9,8 +9,8 @@ $sans-serif-font: "futura-pt", Helvetica, Arial, sans-serif;
 $serif-font: "ff-tisa-web-pro", Georgia, "Times New Roman", serif;
 
 $small-title-font-size: 16pt;
-$small-subtitle-font-size: 16pt;
-$small-header-link-font-size: 16pt;
+$small-subtitle-font-size: 12pt;
+$small-header-link-font-size: 14pt;
 
 $med-title-font-size: 20pt;
 $med-subtitle-font-size: 14pt;
@@ -25,6 +25,7 @@ $large-header-link-font-size: 16pt;
 $gray-light: #818181;
 $gray-lighter: lighten($gray-light, 30%);
 $gray-dark: #3e3e3e;
+$theme-color: #eaaa00;
 
 // Our variables
 // $base-font-family: Helvetica, Arial, sans-serif;
@@ -67,7 +68,7 @@ $spacing-unit:     30px;
 .site-title {
   font: {
     family: $sans-serif-font;
-    size: $small-title-font-size;
+    size: $med-title-font-size;
     weight: 600;
   }
   margin-left: 0px;
@@ -90,6 +91,23 @@ $spacing-unit:     30px;
   margin-left: 0px;
   display: inherit;
   color: $gray-light
+}
+
+.site-hero-header {
+  font: {
+    family: $sans-serif-font;
+    size: $large-title-font-size;
+    weight: 600;
+  }
+  margin-left: 0px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  padding-top: 40px;
+  text-align: center;
+
+  a {
+    color: $gray-dark;
+  }
 }
 
 .header-link {
