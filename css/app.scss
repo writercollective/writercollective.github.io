@@ -93,22 +93,40 @@ $spacing-unit:     30px;
   color: $gray-light
 }
 
+.cover-image {
+  background: url('/images/group-1-sm.jpg') no-repeat 0 0;
+  @include image-2x('/images/group-1-sm@2x.jpg', 573px, 322px);
+  height: 322px;
+  width: 100%;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center;
+  padding-top: 40px;
+
+  @media #{$small-only} {
+
+  }
+}
+
 .site-hero-header {
   font: {
     family: $sans-serif-font;
     size: $large-title-font-size;
     weight: 600;
   }
-  margin-left: 0px;
-  margin-top: 15px;
-  margin-bottom: 0px;
-  padding-top: 40px;
-  text-align: center;
-
-  a {
-    color: $gray-dark;
-  }
+  color: white;
+  margin-left: 80px;
+  margin-right: 80px;
 }
+
+// .hero-header-container {
+//   text-align: center;
+//   display: inline-block;
+//   vertical-align: middle;
+//   line-height: normal;
+// }
 
 .header-link {
   // display: inherit;
@@ -295,17 +313,24 @@ article {
     height: 70px;
   }
 
+  .cover-image {
+    height: 394px;
+    width: 100%;
+    background: url('/images/group-1.jpg') no-repeat 0 0;
+    @include image-2x('/images/group-1@2x.jpg', 700px, 394px);
+  }
+
   .header-block {
     height: 70px;
   }
 
-  .avatar {
-    width: 70px;
-    height: 70px;
-    float: left;
-    background: url('http://cdn.brianlundin.com/images/big-avatar.png') no-repeat 0 0;
-    @include image-2x('http://cdn.brianlundin.com/images/big-avatar@2x.png', 70px, 70px);
-  }
+  // .avatar {
+  //   width: 70px;
+  //   height: 70px;
+  //   float: left;
+  //   background: url('http://cdn.brianlundin.com/images/big-avatar.png') no-repeat 0 0;
+  //   @include image-2x('http://cdn.brianlundin.com/images/big-avatar@2x.png', 70px, 70px);
+  // }
 
   /* Content */
   .content {
@@ -316,7 +341,7 @@ article {
     margin-right: 7px;
   }
 }
-@media #{$medium-only} { 
+@media #{$medium-only} {
   .bio-text {
     font-size: 10pt;
   }
@@ -332,13 +357,13 @@ article {
     color: $gray-light;
   }
 
-  .avatar {
-    width: 200px;
-    height: 172px;
-    float: left;
-    background: url('/images/avatar-large.png') no-repeat 0 0;
-    @include image-2x('/images/avatar-large@2x.png', 250px, 172px);
-  }
+  // .avatar {
+  //   width: 200px;
+  //   height: 172px;
+  //   float: left;
+  //   background: url('/images/avatar-large.png') no-repeat 0 0;
+  //   @include image-2x('/images/avatar-large@2x.png', 250px, 172px);
+  // }
 
   .bio-text {
     font-size: 11pt;
