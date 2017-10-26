@@ -1,17 +1,15 @@
 ---
-layout: default
-title: About
+layout: post
+title: About the Writer Collective
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Writer - one who writes
+Collective - a cooperative enterprise
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Writer collective is a writing team out of Austin, Texas, a city known for its creativity, culture, and what every writer needs: coffee. While we each had individually been cultivating our craft for years, we did not discover our shared passion until 2016. The Austin Film Festival fiction podcast competition first brought us to the table, and our love for Story and the collaborative process is keeping us there.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+We write as a team because we believe that together, we can tell a better story. As we hone an idea collectively, we arrive at a clearer vision, fuller scope, and bigger heart. We end up with something more true and more real than if we had left the idea in our own brains to unfold.
 
+As a team, our goal is to write stories that matter. Stories that elicit hope. Stories that hint at truth. Stories that make you pause and reconsider. We’ve found that writing is one of the best ways to unravel the complications, to make order of the mess, and to bestow dignity upon humanity again. As a collective, our chief aim is to tell stories that will impact the world.
 
-[jekyll-organization]: https://github.com/jekyll
+“Never doubt that a small group of thoughtful, committed citizens can change the world; indeed, it’s the only thing that ever has.” - Margaret Mead

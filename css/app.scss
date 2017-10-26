@@ -104,10 +104,6 @@ $spacing-unit:     30px;
   justify-content: center; /* align horizontal */
   align-items: center;
   padding-top: 40px;
-
-  @media #{$small-only} {
-
-  }
 }
 
 .site-hero-header {
@@ -318,6 +314,11 @@ article {
     width: 100%;
     background: url('/images/group-1.jpg') no-repeat 0 0;
     @include image-2x('/images/group-1@2x.jpg', 700px, 394px);
+  }
+
+  .site-hero-header {
+    margin-left: 100px;
+    margin-right: 100px;
   }
 
   .header-block {
