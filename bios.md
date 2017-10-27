@@ -3,7 +3,7 @@ layout: page
 title: Meet the Writer Collective
 ---
 #### Lindsay Funkhouser
-<img src="/images/WC-2-square.png" class="bio-photo float-left" alt="Lindsay Funkhouser"> Lindsay Funkhouser is Resource Director and Staff Writer at the Austin Stone Community Church. She holds a bachelor’s degree in Marketing from the University of Illinois, and a graduate degree in Sports Management from the University of Texas. So it makes perfect sense that her day job is neither of those things.
+<img src="/images/WC-2-square.png" class="bio-photo float-left" alt="Lindsay Funkhouser"> Lindsay Funkhouser is Resource Director and Staff Writer at the Austin Stone. She holds a bachelor’s degree in Marketing from the University of Illinois, and a graduate degree in Sports Management from the University of Texas. So it makes perfect sense that her day job is neither of those things.
 
 *The Charlatan* is her first fiction podcast, and she is currently writing her first YA novel, a story in which bravery and friendship save the day. She spent her childhood reading Shel Silverstein and Lois Lowery, and was always the first back to her desk after recess to see if her Weekly Reader order had arrived.
 
