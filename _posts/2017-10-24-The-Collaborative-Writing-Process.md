@@ -3,7 +3,9 @@ layout: post
 title: The Collaborative Writing Process
 date: 2017-10-24
 ---
-I had never had writing partners before this endeavor. In truth, I was a bit nervous. How could three brains tackle one story in five weeks time and manage to produce a script with coherency and substance? I’m not sure how it happened. But I can recount what I loved through.
+by Anna Sargeant
+
+I had never had writing partners before this endeavor. In truth, I was a bit nervous. How could three brains tackle one story in five weeks time and manage to produce a script with coherency and substance? I’m not sure how it happened. But I can recount what I lived through.
 
 First of all, we came to the table with no expectations for what the story would be. No one saw the project as their baby. We made every decision together, from world building to characterization, to plot, to structure. And we talked and talked about the story before we ever wrote a word. Before the first line of dialogue was written, we all had to be on the same page. We all had to love it, and we all had to believe in it. After the plot, characters, and themes themselves were agreed upon, if a decision didn’t serve the story, we simply didn’t go with it. Or we had to all agree on alterations. In the end, story was king. Having two other people at the table reminding me of that was essential. When I write alone, I am happy to dethrone Story and sink into its rightful place. This never works out well.
 
