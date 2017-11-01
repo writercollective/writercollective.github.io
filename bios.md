@@ -13,7 +13,7 @@ She is also online at [dailymed](http://dailymedblog.com) and [developmentcultur
 #### Brian Lundin
 <img src="/images/brian-lundin.jpg" class="bio-photo float-left" alt="Brian Lundin"> Brian Lundin is a writer and documentary filmmaker who lives in Taylor, Texas just outside of Austin. Brian is a former software developer, architect, and project manager, but left the tech world to be a full-time storyteller.
 
-Brian is currently working on his first novel, as well as pursuing several podcast projects. Writing **The Charlatan** in 2017 was his first foray into narrative podcast fiction, and he is excited to pursue future podcast projects with Lindsay and Anna. Brian is artistically indebted to the to the works of Victor Hugo, Ernest Hemingway, and J.K. Rowling for his education as a writer. He is passionate about writing and education, and is convinced that recovering the study and appreciation of both the humanities and fine arts are vital for our culture.
+Brian is currently working on his first novel, as well as pursuing several podcast projects. Writing *The Charlatan* in 2017 was his first foray into narrative podcast fiction, and he is excited to pursue future podcast projects with Lindsay and Anna. Brian is artistically indebted to the to the works of Victor Hugo, Ernest Hemingway, and J.K. Rowling for his education as a writer. He is passionate about writing and education, and is convinced that recovering the study and appreciation of both the humanities and fine arts are vital for our culture.
 
 Brian also serves as the Lead Writer and Producer for The Austin Stone Story Team, where he leads a team of artists and teaches about storytelling and faith. He also occasionally writes online at [brianlundin.com](http://brianlundin.com).
 
