@@ -3,12 +3,13 @@ layout: page
 title: Meet the Writer Collective
 ---
 #### Lindsay Funkhouser
-<img src="/images/WC-2-square.png" class="bio-photo float-left" alt="Lindsay Funkhouser"> Lindsay Funkhouser is Resource Director and Staff Writer at the Austin Stone. She holds a bachelor’s degree in Marketing from the University of Illinois, and a graduate degree in Sports Management from the University of Texas. So it makes perfect sense that her day job is neither of those things.
+<img src="/images/WC-2-square.png" class="bio-photo float-left" alt="Lindsay Funkhouser">Lindsay Funkhouser has always loved a good story. She spent her childhood reading Shel Silverstein and Lois Lowery (in between visits to Narnia), and was always the first back to her desk after recess to see if her Weekly Reader order had arrived.
 
-*The Charlatan* is her first fiction podcast, and she is currently writing her first YA novel, a story in which bravery and friendship save the day. She spent her childhood reading Shel Silverstein and Lois Lowery, and was always the first back to her desk after recess to see if her Weekly Reader order had arrived.
+The Charlatan, written in 2017 with Anna and Brian, is her first fiction podcast, and she looks forward to collaborating on many more! She is also currently finishing up her first novel, a young adult story full of friendship and adventure.
 
-Lindsay is a certified MBTI consultant, and when she’s not writing or hiking in the Hill Country, you can usually find her using personality-based tools to help individuals and teams thrive in their purpose. (A very INFJ thing to do.)
-She is also online at [dailymed](http://dailymedblog.com) and [developmentculture](http://developmentculture.com).
+She spends her days as a Resource Director at the Austin Stone, where she develops training resources and curriculum. She holds a bachelor’s degree in Marketing from the University of Illinois, and a graduate degree in Sports Management from the University of Texas, so it makes perfect sense that her day job is neither of those things.
+
+Lindsay is a certified MBTI consultant, and when she’s not writing, hiking in the Hill Country, or watching college basketball, you can usually find her using personality-based tools to help individuals and teams thrive in their mission. (A very INFJ thing to do.) She is also online at [dailymed](http://dailymedblog.com) and [developmentculture](http://developmentculture.com).
 
 #### Brian Lundin
 <img src="/images/brian-lundin.jpg" class="bio-photo float-left" alt="Brian Lundin"> Brian Lundin is a writer and documentary filmmaker who lives in Taylor, Texas just outside of Austin. Brian is a former software developer, architect, and project manager, but left the tech world to be a full-time storyteller.
